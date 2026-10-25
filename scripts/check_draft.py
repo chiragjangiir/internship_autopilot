@@ -10,7 +10,16 @@ Warnings: unfilled YOUR_ placeholders.
 import re, sys
 
 MAX_WORDS = 170
-OPT_OUT = re.compile(r"no thanks|not hear from me|unsubscribe|opt out", re.I)
+OPT_OUT = re.compile(
+    r"no thanks|not hear from me|unsubscribe|opt out|"
+    r"kein interesse|nicht mehr schreiben|abmelden|"
+    r"pas int[eé]ress[eé]|ne plus me contacter|d[eé]sabonner|se d[eé]sinscrire|"
+    r"geen interesse|niet meer mailen|afmelden|uitschrijven|"
+    r"no gracias|no me contactes|darse de baja|cancelar suscripci[oó]n|"
+    r"non mi interessa|non scrivermi pi[uù]|cancellarsi|disiscriviti|"
+    r"n[aã]o tenho interesse|n[aã]o me contate|cancelar inscri[cç][aã]o|descadastrar",
+    re.I
+)
 GENERIC = re.compile(r"dear (sir|madam|sir/madam|hiring manager|team)\b|to whom it may concern", re.I)
 STRONG = ["led a team", "managed a team", "expert", "world class", "award", "published", "patent",
           "fluent", "increased", "improved", "reduced", "launched", "founded", "top student"]
@@ -37,6 +46,20 @@ def selftest():
     _, e, _ = check(bad, facts)
     assert any("generic" in x for x in e) and any("300%" in x for x in e) and any("led a team" in x for x in e) and any("opt out" in x for x in e), e
     _, e, _ = check("word " * 169 + "no thanks", facts); assert any("171 words" in x for x in e), e
+
+    # Multilingual opt-out cases: German, French, Dutch, Spanish, Italian, Portuguese
+    multilingual = [
+        "Dear Tomas, I built a dashboard. Wenn Sie kein Interesse haben, antworten Sie mit abmelden.",
+        "Dear Tomas, I built a dashboard. Si vous n'êtes pas intéressé, répondez pour ne plus me contacter.",
+        "Dear Tomas, I built a dashboard. Als u geen interesse heeft, kunt u zich afmelden.",
+        "Dear Tomas, I built a dashboard. Si no está interesado, puede cancelar suscripción o no gracias.",
+        "Dear Tomas, I built a dashboard. Se non interessa, risponda per disiscriviti.",
+        "Dear Tomas, I built a dashboard. Se não tiver interesse, pode cancelar inscrição.",
+    ]
+    for s in multilingual:
+        _, e, _ = check(s, facts)
+        assert not any("opt out" in x for x in e), f"Failed to match opt out in: {s}"
+
     print("selftest passed")
 
 if __name__ == "__main__":
