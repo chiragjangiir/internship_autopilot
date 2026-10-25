@@ -1,6 +1,14 @@
 <p align="center"><img src="assets/images/hero.png" alt="Internship Application Autopilot: research the right people, tailor every email from real facts, and send only after you say send" width="100%"></p>
 
 <p align="center">
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16a34a" alt="MIT license"></a>
+<img src="https://img.shields.io/badge/macOS-Apple%20Mail-7c3aed?logo=apple&logoColor=white" alt="macOS with Apple Mail">
+<img src="https://img.shields.io/badge/Windows-Outlook-2563eb?logo=windows&logoColor=white" alt="Windows with Outlook">
+<img src="https://img.shields.io/badge/human%20approval-required-d97706" alt="Human approval required">
+<a href="https://github.com/aghasalim/internship_autopilot/stargazers"><img src="https://img.shields.io/github/stars/aghasalim/internship_autopilot?style=social" alt="GitHub stars"></a>
+</p>
+
+<p align="center">
 <a href="#overview">Overview</a> · <a href="#why">Why</a> · <a href="#architecture">Architecture</a> · <a href="#workflow">Workflow</a> · <a href="#safety">Safety and ethics</a> · <a href="#setup">Setup</a> · <a href="#usage">Usage</a> · <a href="#examples">Examples</a> · <a href="#troubleshooting">Troubleshooting</a> · <a href="#faq">FAQ</a>
 </p>
 
@@ -19,6 +27,21 @@ An AI assistant does the slow parts of an internship search. You make the one de
 * **After sending:** replies are summarised with a drafted answer, meetings go into Apple Calendar, and every decision is logged.
 
 **In the real run:** hundreds of emails to professors and labs, about 30 companies in Boston, a cap of 100 emails a day, and several positive replies and interviews.
+
+### Try it in ten seconds
+
+No Mac, Outlook or AI needed. Clone the repo and run the draft checker on a good and a bad email:
+
+```bash
+git clone https://github.com/aghasalim/internship_autopilot.git
+cd internship_autopilot
+python3 scripts/check_draft.py examples/draft_generic.txt examples/facts.md
+```
+
+It flags the generic greeting, the missing opt out line, the invented "300%" and the inflated claim. Then run it on `examples/draft_quill.txt` and watch it pass.
+
+**If this helps your search, a star helps other students find it.**
+
 
 ## Why
 

@@ -16,5 +16,6 @@ for p in architecture workflow sequence safety mockups compare panels; do python
 ./render.sh compare 1600 900
 ./render.sh setup 1600 575
 ./render.sh faq 1600 585
+./render.sh social 1280 640 && sips -z 640 1280 ../images/social.png --out ../images/social_preview.png >/dev/null && rm ../images/social.png
 python3 gif.py
 python3 check_text.py && echo "all images built, no hyphens, dashes or semicolons in visible text"
