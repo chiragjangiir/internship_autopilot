@@ -179,6 +179,6 @@ internship_autopilot/
 
 ## License and credits
 
-[MIT](LICENSE) © YOUR_NAME. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`SECURITY.md`](SECURITY.md).
+[MIT](LICENSE) © aghasalim. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`SECURITY.md`](SECURITY.md).
 
 Apple, Apple Mail, Apple Calendar, macOS, Microsoft, Windows, Outlook, Excel, PowerShell, Tailscale and Claude are trademarks of their owners. Their logos appear only to show which apps the scripts work with. This project is not affiliated with or endorsed by any of them. Line icons are from [Lucide](https://lucide.dev) (ISC license). Image sources and credits are in [`assets/src/README.md`](assets/src/README.md).

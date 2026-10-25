@@ -6,7 +6,7 @@ What was removed or replaced before this repository was made public, and how to 
 
 <table>
 <tr><th>Category</th><th>What happened</th><th>Placeholder used</th></tr>
-<tr><td>Real names (you, recipients, contacts)</td><td>Removed. Recipients in examples and screenshots are invented people.</td><td><code>YOUR_NAME</code>, fictional names</td></tr>
+<tr><td>Real names (you, recipients, contacts)</td><td>Removed. Recipients in examples and screenshots are invented people. LICENSE uses only the public GitHub handle aghasalim.</td><td><code>YOUR_NAME</code>, fictional names</td></tr>
 <tr><td>Email addresses</td><td>Removed. Every address in the repository ends in <code>example.com</code>.</td><td><code>you@example.com</code></td></tr>
 <tr><td>Phone numbers</td><td>None included.</td><td>none needed</td></tr>
 <tr><td>IBAN and bank details</td><td>None included.</td><td>none needed</td></tr>

@@ -2,7 +2,13 @@
 
 ## Reporting a problem
 
-If you find a way the scripts could send email without approval, mail the wrong person, or leak personal data, please do not open a public issue. Write to you@example.com (replace this with your own address when you publish) with the steps to reproduce. You will get an answer within a week.
+If you find a way the scripts could send email without approval, mail the wrong person, or leak personal data, please do not open a public issue. Report it privately through GitHub instead:
+
+1. Open the [Security tab](https://github.com/aghasalim/internship_autopilot/security) of this repository.
+2. Click **Report a vulnerability**.
+3. Describe the problem and the steps to reproduce it.
+
+Only the maintainer can see the report. You will get an answer within a week.
 
 ## What is in scope
 
