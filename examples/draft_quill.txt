@@ -1,0 +1,9 @@
+Dear Tomas,
+
+I enjoyed your studio's case study on the energy use dashboard, especially how you made hourly data readable on a phone. In my DATA_VIZ_PROJECT I built a similar dashboard in Python and D3 and reworked it after feedback from real users.
+
+I am a YOUR_YEAR student in YOUR_PROGRAMME and I am looking for an internship from YOUR_START_DATE. Would your team have room for an intern? My CV is attached.
+
+Kind regards,
+YOUR_NAME
+If you'd rather not hear from me again, just reply “no thanks” and I won't follow up.

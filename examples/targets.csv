@@ -1,0 +1,9 @@
+organisation,person,email,source_url,language,why_it_fits,status
+Northwind Robotics,Dr. Ada Rivera,a.rivera@northwind.example.com,https://northwind.example.com/team,EN,Grasp planning for warehouse arms,replied
+Lumen Vision Lab,Prof. Lena Okafor,okafor@lumenlab.example.com,https://lumenlab.example.com/people,EN,"Event cameras, matches my SLAM project",replied
+Harbor AI,Sam Patel,careers@harborai.example.com,https://harborai.example.com/jobs,EN,"Open ML intern role, Python + ROS",replied
+Bluefin Autonomy,Dr. Jonas Weber,j.weber@bluefin.example.com,https://bluefin.example.com/research,DE,"Underwater navigation, Kalman filters",drafted
+Cedar Imaging Group,Mia Chen,mia.chen@cedar.example.com,https://cedar.example.com/about,EN,Medical image segmentation,follow up
+Quill Data Studio,Tomas Novak,hello@quill.example.com,https://quill.example.com/contact,EN,"Small team, data viz internships",approved
+Orbit Sensors,Recruiting team,info@orbit.example.com,https://orbit.example.com/careers,EN,"Sensor fusion, posted intern call",sent
+Atlas Field Robotics,Prof. Ines Duarte,duarte@atlasfr.example.com,https://atlasfr.example.com/lab,EN,"Agricultural robots, outdoor perception",new

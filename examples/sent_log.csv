@@ -1,0 +1,6 @@
+timestamp,email,organisation,status,client
+2026/10/09 10:41:03,info@orbit.example.com,Orbit Sensors,sent,Outlook
+2026/10/14 09:02:11,a.rivera@northwind.example.com,Northwind Robotics,sent,Outlook
+2026/10/14 09:07:48,okafor@lumenlab.example.com,Lumen Vision Lab,sent,Outlook
+2026/10/14 09:13:30,mia.chen@cedar.example.com,Cedar Imaging Group,sent,Outlook
+2026/10/14 09:16:55,careers@harborai.example.com,Harbor AI,sent,Outlook

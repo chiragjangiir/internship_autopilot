@@ -1,0 +1,6 @@
+# One address per line. Only these addresses can be mailed by send_drafts.ps1.
+a.rivera@northwind.example.com
+okafor@lumenlab.example.com
+mia.chen@cedar.example.com
+careers@harborai.example.com
+info@orbit.example.com

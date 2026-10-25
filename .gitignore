@@ -1,0 +1,16 @@
+# Real data stays on your machine
+/data/
+private_words.txt
+*.csv
+!examples/*.csv
+*.pdf
+*.doc
+*.docx
+*.log
+dry_run.txt
+STOP
+
+# System and editor files
+.DS_Store
+__pycache__/
+*.pyc
