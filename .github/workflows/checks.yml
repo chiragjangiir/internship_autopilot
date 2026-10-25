@@ -1,0 +1,15 @@
+name: checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/check_draft.py selftest
+      - run: python3 scripts/check_private.py selftest
+      - run: python3 scripts/check_private.py
+      - run: python3 scripts/check_draft.py examples/draft_quill.txt examples/facts.md
+      - run: bash -n scripts/mac/send_att.sh && bash -n scripts/mac/reply_in_thread.sh && bash -n scripts/mac/add_event.sh

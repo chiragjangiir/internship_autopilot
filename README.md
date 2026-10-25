@@ -1,6 +1,7 @@
 <p align="center"><img src="assets/images/hero.png" alt="Internship Application Autopilot: research the right people, tailor every email from real facts, and send only after you say send" width="100%"></p>
 
 <p align="center">
+<a href="https://github.com/aghasalim/internship_autopilot/actions/workflows/checks.yml"><img src="https://github.com/aghasalim/internship_autopilot/actions/workflows/checks.yml/badge.svg" alt="Checks"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16a34a" alt="MIT license"></a>
 <img src="https://img.shields.io/badge/macOS-Apple%20Mail-7c3aed?logo=apple&logoColor=white" alt="macOS with Apple Mail">
 <img src="https://img.shields.io/badge/Windows-Outlook-2563eb?logo=windows&logoColor=white" alt="Windows with Outlook">
