@@ -1,5 +1,11 @@
 <p align="center"><img src="assets/images/hero.png" alt="Internship Application Autopilot: research the right people, tailor every email from real facts, and send only after you say send" width="100%"></p>
 
+<h3 align="center">Hundreds of personal internship emails. Zero sent without your approval.</h3>
+
+<p align="center">An AI assistant researches labs, professors and companies, writes one honest email per person from your real facts, and saves it as a draft. You read it and type <code>send</code>. Apple Mail or Outlook does the rest.</p>
+
+<p align="center"><b>For students</b> applying to many labs and companies · <b>for builders</b> who want a safe pattern for AI agents that touch email</p>
+
 <p align="center">
 <a href="https://github.com/aghasalim/internship_autopilot/actions/workflows/checks.yml"><img src="https://github.com/aghasalim/internship_autopilot/actions/workflows/checks.yml/badge.svg" alt="Checks"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16a34a" alt="MIT license"></a>

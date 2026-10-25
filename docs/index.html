@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Application Autopilot · AI drafted applications, human approved</title>
+<meta name="description" content="Open source AI assistant for internship applications. Researches labs and companies, writes one honest email per person from your real facts, and sends through Apple Mail or Outlook only after you approve.">
+<meta property="og:title" content="Internship Application Autopilot">
+<meta property="og:description" content="Hundreds of personal internship emails. Zero sent without your approval. Free and open source.">
+<meta property="og:image" content="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/social_preview.png">
+<meta property="og:url" content="https://aghasalim.github.io/internship_autopilot/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/social_preview.png">
+<link rel="canonical" href="https://aghasalim.github.io/internship_autopilot/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Internship Application Autopilot","applicationCategory":"ProductivityApplication","operatingSystem":"macOS, Windows","offers":{"@type":"Offer","price":"0"},"license":"https://opensource.org/licenses/MIT","url":"https://github.com/aghasalim/internship_autopilot"}</script>
+<style>
+:root{--ink:#0f172a;--muted:#475569;--line:#e2e8f0;--bg:#f8fafc;--card:#fff;--accent:#d97706;--navy:#0a1238}
+@media (prefers-color-scheme:dark){:root{--ink:#e2e8f0;--muted:#94a3b8;--line:#1e293b;--bg:#0b1020;--card:#111827}}
+*{box-sizing:border-box;margin:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit}
+.hero{background:var(--navy);color:#fff;text-align:center;padding:0 16px 48px}
+.hero img{width:100%;max-width:1200px;display:block;margin:0 auto}
+.hero h1{font-size:clamp(28px,5vw,46px);letter-spacing:-.02em;line-height:1.15;margin:28px auto 14px;max-width:900px}
+.hero p{color:#cbd5e1;font-size:clamp(16px,2.2vw,20px);max-width:760px;margin:0 auto}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:13px 22px;border-radius:12px;font-weight:700;text-decoration:none}
+.btn.main{background:var(--accent);color:#fff}.btn.alt{border:1px solid rgba(255,255,255,.3);color:#fff}
+main{max-width:1100px;margin:0 auto;padding:0 16px}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(24px,3.5vw,32px);letter-spacing:-.02em;margin-bottom:12px}
+section>p{color:var(--muted);font-size:18px;max-width:760px;margin-bottom:24px}
+.shot{width:100%;border-radius:16px;border:1px solid var(--line);display:block;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h3{font-size:18px;margin-bottom:6px}.card p{color:var(--muted)}
+pre{background:#0f172a;color:#e2e8f0;border-radius:12px;padding:18px;overflow-x:auto;font-size:14px}
+footer{text-align:center;color:var(--muted);padding:40px 16px;font-size:14px}
+</style>
+</head>
+<body>
+<header class="hero">
+<img src="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/hero.png" alt="Internship Application Autopilot banner">
+<h1>Hundreds of personal internship emails. Zero sent without your approval.</h1>
+<p>An AI assistant researches labs, professors and companies, writes one honest email per person from your real facts, and saves it as a draft. You read it and type send.</p>
+<div class="cta"><a class="btn main" href="https://github.com/aghasalim/internship_autopilot">Star it on GitHub</a><a class="btn alt" href="#try">Try it in ten seconds</a></div>
+</header>
+<main>
+<section>
+<h2>See it work</h2>
+<p>Eight steps from research to interview, with one human decision in the middle.</p>
+<img class="shot" src="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/workflow.gif" alt="Animation of the eight workflow steps" loading="lazy">
+</section>
+<section>
+<h2>Generic emails get ignored</h2>
+<p>Each email names one real detail of the recipient's work and one matching project of yours. A claims checker removes anything that is not in your facts file.</p>
+<img class="shot" src="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/compare.png" alt="Generic email next to a tailored one" loading="lazy">
+</section>
+<section>
+<h2>How it fits together</h2>
+<p>The assistant prepares, you approve, Apple Mail on a Mac or Outlook on a Windows PC sends, and replies loop back through your approval.</p>
+<img class="shot" src="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/architecture.png" alt="Architecture diagram" loading="lazy">
+</section>
+<section>
+<h2>Seven guard rails, learned the hard way</h2>
+<p>Allow list, dry run, preview and send, sent log, daily cap, random delay and a STOP switch. Every email passes all seven.</p>
+<img class="shot" src="https://raw.githubusercontent.com/aghasalim/internship_autopilot/main/assets/images/safety.png" alt="Seven guard rails" loading="lazy">
+</section>
+<section>
+<h2>What you get</h2>
+<div class="grid">
+<div class="card"><h3>Assistant rulebook</h3><p>One Markdown file that tells any AI assistant how to research, write and wait for your approval.</p></div>
+<div class="card"><h3>Mac sender</h3><p>AppleScript for Apple Mail with a Sent folder check, replies in thread and calendar entries with four alerts.</p></div>
+<div class="card"><h3>Windows sender</h3><p>PowerShell for classic Outlook. Dry run by default, daily cap, pauses and a sent log. Runs every day on a spare PC.</p></div>
+<div class="card"><h3>Two checkers</h3><p>A claims check for every draft and a privacy scan before you publish anything.</p></div>
+</div>
+</section>
+<section id="try">
+<h2>Try it in ten seconds</h2>
+<p>No Mac, Outlook or AI needed. Run the draft checker on a bad example email and see what it catches.</p>
+<pre>git clone https://github.com/aghasalim/internship_autopilot.git
+cd internship_autopilot
+python3 scripts/check_draft.py examples/draft_generic.txt examples/facts.md</pre>
+<div class="cta"><a class="btn main" href="https://github.com/aghasalim/internship_autopilot">Get it on GitHub</a></div>
+</section>
+</main>
+<footer>MIT licensed · built for personal, low volume, honest applications · <a href="https://github.com/aghasalim/internship_autopilot/blob/main/docs/ethics.md">ethics and legal</a></footer>
+</body>
+</html>
